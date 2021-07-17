@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# First Project in REACTJS
+
+Preview: https://astroonauta.github.io/reactjs-project-to-learn-basics-ghpages/
+
+<hr>
+
+<img src="https://github.com/AstrOOnauta/reactjs-project-to-learn-basics/blob/main/preview.gif?raw=true">
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

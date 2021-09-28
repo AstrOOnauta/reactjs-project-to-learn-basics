@@ -1,9 +1,10 @@
-import TaskEngine from "./components/taskEngine"
+import Home from "./components/home";
+
 
 function App() {
   
   return(
-      <TaskEngine />
+      <Home />
   )
 }
 

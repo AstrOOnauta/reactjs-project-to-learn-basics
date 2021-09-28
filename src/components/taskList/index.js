@@ -109,6 +109,14 @@ const ModalButton = styled.button`
     cursor: pointer;
 `
 
+const AstrOOnauta = styled.p`
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    color: white;
+`
+
 export default function TaskList(props){
     const [editableTask, setEditableTask] = useState("")
     const [indexTask, setIndexTask] = useState(-1)
@@ -202,6 +210,9 @@ export default function TaskList(props){
                     <ModalInput id="inputEdit" value={editableTask} onChange={(e)=>setEditableTask(e.target.value)} autoComplete="off"/>
                     <ModalButton onClick={updateTask}>Editar</ModalButton>
                 </ModalForm>
+                <AstrOOnauta>Desenvolvido por
+                    <a style={{textDecoration: "none", color: "#fbb034"}} href="https://github.com/AstrOOnauta" target="_blank" rel="noreferrer"> AstrOOnauta</a>
+                </AstrOOnauta>
             </ModalEdit>
         </>
     )
